@@ -33,7 +33,7 @@ font=cv2.FONT_HERSHEY_COMPLEX_SMALL
 
 
 # Create the Text using cv2.putText
-cv2.putText(img1,'Rishi M' ,(5,70),font,4,(255),2,cv2.LINE_AA)
+cv2.putText(img1,'Elamaran S E' ,(5,70),font,4,(255),2,cv2.LINE_AA)
 
 # Create the structuring element
 kernel1=cv2.getStructuringElement(cv2.MORPH_CROSS,(5,5))
@@ -56,7 +56,7 @@ plt.imshow(img_erode,cmap='gray')
 ```
 ## Output:
 
-![image](![Screenshot 2025-05-26 210831](https://github.com/user-attachments/assets/11f671f1-3977-43bc-8643-a7c11af6036f)
+![download](https://github.com/user-attachments/assets/073f23d4-afa8-4556-b5b7-0e03fa4a3e08)
 
 ## Result
 Thus the generated text image is eroded and dilated using python and OpenCV.
